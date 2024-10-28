@@ -1,0 +1,109 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "9"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "replace",
+        "path": "/cropProps/growthStages",
+        "value": 9
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 2.1
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "addmerge",
+        "path": "/shapeByType/*-9",
+        "value": { "base": "block/plant/flower/3patches-3faces-24x24" }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-9": { 
+                "north1": { "base": "ksrealisticfarming:block/plant/flower/petal/parsnip1" },
+                "south1": { "base": "ksrealisticfarming:block/plant/flower/petal/parsnip1" },
+                "northTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/parsnip1" },
+                "southTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/parsnip1" },
+                "north2": { "base": "ksrealisticfarming:block/plant/flower/petal/parsnip2" },
+                "south2": { "base": "ksrealisticfarming:block/plant/flower/petal/parsnip2" },
+                "northTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/parsnip2" },
+                "southTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/parsnip2" },
+                "north3": { "base": "ksrealisticfarming:block/plant/flower/petal/parsnip1" },
+                "south3": { "base": "ksrealisticfarming:block/plant/flower/petal/parsnip1" },
+                "northTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/parsnip1" },
+                "southTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/parsnip1" }
+            }
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value":  {
+            "*-7": [
+                { "type": "item", "code": "vegetable-parsnip", "quantity": { "avg": 4, "var": 1 }  }
+            ],
+            "*-8": [
+                { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 0.2 }  },
+                { "type": "item", "code": "vegetable-parsnip", "quantity": { "avg": 12, "var": 2 }  }
+            ],
+            "*-9": [
+                { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 2.2 }  },
+                { "type": "item", "code": "rot", "quantity": { "avg": 12, "var": 2 }  }
+            ],
+            "*": []
+        }
+    },
+    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "replace",
+        "path": "/attributes/butterflyFeedByType",
+        "value": {
+			"*-9": true,
+			"*": false
+		}
+    },    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/parsnip",
+        "op": "replace",
+        "path": "/attributes/beeFeedByType",
+        "value": {
+			"*-9": true,
+			"*": false
+		}
+    }
+]

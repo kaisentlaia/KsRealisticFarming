@@ -1,0 +1,17 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/sunflower",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-11": [
+                { "type": "item", "code": "grain-sunflower", "quantity": { "avg": 13, "var": 2 }  }
+            ],
+            "*-12": [
+                { "type": "item", "code": "grain-sunflower", "quantity": { "avg": 26, "var": 4 }  }
+            ],
+            "*": []
+        }
+    }
+]

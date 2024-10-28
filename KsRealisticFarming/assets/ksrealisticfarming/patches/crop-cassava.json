@@ -1,0 +1,93 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "10"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "replace",
+        "path": "/cropProps/growthStages",
+        "value": 10
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 5.1
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "addmerge",
+        "path": "/shapeByType",
+        "value": { "*-10": { "base": "block/plant/flower/1patch-cross-24x24" } }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-10": { 
+                "north1": { "base": "ksrealisticfarming:block/plant/flower/petal/cassava" },
+                "south1": { "base": "ksrealisticfarming:block/plant/flower/petal/cassava" },
+                "northTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/cassava" },
+                "southTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/cassava" },
+                "north2": { "base": "ksrealisticfarming:block/plant/flower/petal/cassava" },
+                "south2": { "base": "ksrealisticfarming:block/plant/flower/petal/cassava" },
+                "northTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/cassava" },
+                "southTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/cassava" },
+                "north3": { "base": "ksrealisticfarming:block/plant/flower/petal/cassava" },
+                "south3": { "base": "ksrealisticfarming:block/plant/flower/petal/cassava" },
+                "northTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/cassava" },
+                "southTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/cassava" }
+            }
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value":  {
+            "*-7": [
+                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 5, "var": 0.8 }  }
+            ],
+            "*-8": [
+                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.2 }  },
+                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 16, "var": 2 }  }
+            ],
+            "*-9": [
+                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 2.2 }  },
+                { "type": "item", "code": "rot", "quantity": { "avg": 16, "var": 2 }  }
+            ],
+            "*": []
+        }
+    },
+    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "addmerge",
+        "path": "/attributes/butterflyFeedByType",
+        "value": {
+			"*-10": true,
+			"*": false
+		}
+    },    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cassava",
+        "op": "addmerge",
+        "path": "/attributes/beeFeedByType",
+        "value": {
+			"*-10": true,
+			"*": false
+		}
+    }
+]

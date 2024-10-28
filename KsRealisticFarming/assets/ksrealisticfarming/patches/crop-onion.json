@@ -1,0 +1,124 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "8"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/cropProps/growthStages",
+        "value": 8
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 1.95
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "addmerge",
+        "path": "/shapeByType/*-8",
+        "value": { "base": "block/plant/flower/3patches-3faces-24x24" }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-8": { 
+                "north1": { "base": "ksrealisticfarming:block/plant/flower/petal/onion1" },
+                "south1": { "base": "ksrealisticfarming:block/plant/flower/petal/onion1" },
+                "northTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/onion1" },
+                "southTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/onion1" },
+                "north2": { "base": "ksrealisticfarming:block/plant/flower/petal/onion2" },
+                "south2": { "base": "ksrealisticfarming:block/plant/flower/petal/onion2" },
+                "northTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/onion2" },
+                "southTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/onion2" },
+                "north3": { "base": "ksrealisticfarming:block/plant/flower/petal/onion1" },
+                "south3": { "base": "ksrealisticfarming:block/plant/flower/petal/onion1" },
+                "northTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/onion1" },
+                "southTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/onion1" }
+            }
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value":  {
+            "*-6": [
+                { "type": "item", "code": "vegetable-onion", "quantity": { "avg": 3, "var": 1 }  }
+            ],
+            "*-7": [
+                { "type": "item", "code": "seeds-onion", "quantity": { "avg": 0.2 }  },
+                { "type": "item", "code": "vegetable-onion", "quantity": { "avg": 12, "var": 2 }  }
+            ],
+            "*-8": [
+                { "type": "item", "code": "seeds-onion", "quantity": { "avg": 2.2 }  },
+                { "type": "item", "code": "rot", "quantity": { "avg": 12, "var": 2 }  }
+            ],
+            "*": []
+        }
+    },
+    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/attributes/butterflyFeedByType",
+        "value": {
+			"*-8": true,
+			"*": false
+		}
+    },    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/attributes/beeFeedByType",
+        "value": {
+			"*-8": true,
+			"*": false
+		}
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "addmerge",
+        "path": "/attributes/drawnHeightByType",
+        "value": {"*-8": 32}
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "addmerge",
+        "path": "/attributes/sitHeightByType",
+        "value": {"*-8": 0.75}
+    }
+]

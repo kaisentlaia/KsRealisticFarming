@@ -1,0 +1,109 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "6"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "replace",
+        "path": "/cropProps/growthStages",
+        "value": 6
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 1.1
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "addmerge",
+        "path": "/shapeByType/*-6",
+        "value": { "base": "block/plant/flower/3patches-3faces-24x24" }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-6": { 
+                "north1": { "base": "ksrealisticfarming:block/plant/flower/petal/turnip1" },
+                "south1": { "base": "ksrealisticfarming:block/plant/flower/petal/turnip1" },
+                "northTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/turnip1" },
+                "southTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/turnip1" },
+                "north2": { "base": "ksrealisticfarming:block/plant/flower/petal/turnip2" },
+                "south2": { "base": "ksrealisticfarming:block/plant/flower/petal/turnip2" },
+                "northTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/turnip2" },
+                "southTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/turnip2" },
+                "north3": { "base": "ksrealisticfarming:block/plant/flower/petal/turnip1" },
+                "south3": { "base": "ksrealisticfarming:block/plant/flower/petal/turnip1" },
+                "northTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/turnip1" },
+                "southTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/turnip1" }
+            }
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value":  {
+            "*-4": [
+                { "type": "item", "code": "vegetable-turnip", "quantity": { "avg": 3, "var": 1 }  }
+            ],
+            "*-5": [
+                { "type": "item", "code": "seeds-turnip", "quantity": { "avg": 0.2 }  },
+                { "type": "item", "code": "vegetable-turnip", "quantity": { "avg": 7, "var": 1 }  }
+            ],
+            "*-6": [
+                { "type": "item", "code": "seeds-turnip", "quantity": { "avg": 2.2 }  },
+                { "type": "item", "code": "rot", "quantity": { "avg": 7, "var": 1 }  }
+            ],
+            "*": []
+        }
+    },
+    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "replace",
+        "path": "/attributes/butterflyFeedByType",
+        "value": {
+			"*-6": true,
+			"*": false
+		}
+    },    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/turnip",
+        "op": "replace",
+        "path": "/attributes/beeFeedByType",
+        "value": {
+			"*-6": true,
+			"*": false
+		}
+    }
+]

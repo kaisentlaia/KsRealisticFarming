@@ -1,0 +1,74 @@
+[
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:grain-flax", "quantity": 5 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-flax", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:grain-spelt", "quantity": 10 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-spelt", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:grain-rice", "quantity": 11 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-rice", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:grain-rye", "quantity": 9 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-rye", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:legume-soybean", "quantity": 5 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-soybean", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:grain-amaranth", "quantity": 5 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-amaranth", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:legume-peanut", "quantity": 8 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-peanut", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "V",
+		"ingredients": {
+			"V": { "type": "item", "code": "game:grain-sunflower", "quantity": 11 }
+		},
+		"width": 1,
+		"height": 1,
+		"output": { "type": "item", "code": "game:seeds-sunflower", "quantity": 1  }
+	}
+]

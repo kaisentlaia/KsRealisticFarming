@@ -1,0 +1,17 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/rice",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-9": [
+                { "type": "item", "code": "grain-rice", "quantity": { "avg": 13, "var": 2 }  }
+            ],
+            "*-10": [
+                { "type": "item", "code": "grain-rice", "quantity": { "avg": 26, "var": 4 }  }
+            ],
+            "*": []
+        }
+    }
+]

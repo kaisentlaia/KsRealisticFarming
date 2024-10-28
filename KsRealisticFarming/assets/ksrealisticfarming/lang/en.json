@@ -1,0 +1,10 @@
+{
+    "game:block-crop-cabbage-13": "Flowering cabbage",
+    "game:block-crop-carrot-8": "Flowering carrots",
+    "game:block-crop-onion-8": "Flowering onions",
+    "game:block-crop-parsnip-9": "Flowering parsnips",
+    "game:block-crop-turnip-6": "Flowering turnips",
+    "game:block-crop-cassava-*": "Growing cassava plant",
+    "game:block-crop-cassava-9": "Mature cassava plant",
+    "game:block-crop-cassava-10": "Flowering cassava plant"
+}

@@ -1,0 +1,93 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "13"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "replace",
+        "path": "/cropProps/growthStages",
+        "value": 13
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 1.6
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "addmerge",
+        "path": "/shapeByType/*-13",
+        "value": { "base": "block/plant/flower/1patch-cross-24x24" }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-13": { 
+                "north1": { "base": "ksrealisticfarming:block/plant/flower/petal/cabbage" },
+                "south1": { "base": "ksrealisticfarming:block/plant/flower/petal/cabbage" },
+                "northTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/cabbage" },
+                "southTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/cabbage" },
+                "north2": { "base": "ksrealisticfarming:block/plant/flower/petal/cabbage" },
+                "south2": { "base": "ksrealisticfarming:block/plant/flower/petal/cabbage" },
+                "northTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/cabbage" },
+                "southTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/cabbage" },
+                "north3": { "base": "ksrealisticfarming:block/plant/flower/petal/cabbage" },
+                "south3": { "base": "ksrealisticfarming:block/plant/flower/petal/cabbage" },
+                "northTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/cabbage" },
+                "southTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/cabbage" }
+            }
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value":  {
+            "*-11": [
+                { "type": "item", "code": "vegetable-cabbage", "quantity": { "avg": 0.85, "var": 0.1 }  }
+            ],
+            "*-12": [
+                { "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 0.2 }  },
+                { "type": "item", "code": "vegetable-cabbage", "quantity": { "avg": 2, "var": 0 }  }
+            ],
+            "*-13": [
+                { "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 2.2 }  },
+                { "type": "item", "code": "rot", "quantity": { "avg": 2, "var": 0 }  }
+            ],
+            "*": []
+        }
+    },
+    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "replace",
+        "path": "/attributes/butterflyFeedByType",
+        "value": {
+			"*-13": true,
+			"*": false
+		}
+    },    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/cabbage",
+        "op": "replace",
+        "path": "/attributes/beeFeedByType",
+        "value": {
+			"*-13": true,
+			"*": false
+		}
+    }
+]

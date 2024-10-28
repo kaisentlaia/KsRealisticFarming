@@ -1,0 +1,20 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/peanut",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-7": [
+                { "type": "item", "code": "legume-peanut", "quantity": { "avg": 4, "var": 0.5 }  }
+            ],
+            "*-8": [
+                { "type": "item", "code": "legume-peanut", "quantity": { "avg": 10, "var": 2 }  }
+            ],
+            "*-9": [
+                { "type": "item", "code": "legume-peanut", "quantity": { "avg": 20, "var": 4 }  }
+            ],
+            "*": []
+        }
+    }
+]

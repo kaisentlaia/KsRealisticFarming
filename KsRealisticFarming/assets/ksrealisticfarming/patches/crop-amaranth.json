@@ -1,0 +1,20 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/amaranth",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-7": [
+                { "type": "item", "code": "grain-amaranth", "quantity": { "avg": 1, "var": 0.5 }  }
+            ],
+            "*-8": [
+                { "type": "item", "code": "grain-amaranth", "quantity": { "avg": 5, "var": 1 }  }
+            ],
+            "*-9": [
+                { "type": "item", "code": "grain-amaranth", "quantity": { "avg": 12, "var": 2 }  }
+            ],
+            "*": []
+        }
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "add",
+        "path": "/variantgroups/1/states/-",
+        "value": "8"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "replace",
+        "path": "/cropProps/growthStages",
+        "value": 8
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 1.3
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "addmerge",
+        "path": "/shapeByType/*-8",
+        "value": { "base": "block/plant/flower/3patches-3faces-24x24" }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "move",
+        "frompath": "/shapeByType/*",
+        "path": "/temp"
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "move",
+        "frompath": "/temp",
+        "path": "/shapeByType/*"
+    },
+
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "addmerge",
+        "path": "/texturesByType",
+        "value": {
+            "*-8": { 
+                "north1": { "base": "ksrealisticfarming:block/plant/flower/petal/carrot1" },
+                "south1": { "base": "ksrealisticfarming:block/plant/flower/petal/carrot1" },
+                "northTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/carrot1" },
+                "southTinted1": { "base": "ksrealisticfarming:block/plant/flower/stem/carrot1" },
+                "north2": { "base": "ksrealisticfarming:block/plant/flower/petal/carrot2" },
+                "south2": { "base": "ksrealisticfarming:block/plant/flower/petal/carrot2" },
+                "northTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/carrot2" },
+                "southTinted2": { "base": "ksrealisticfarming:block/plant/flower/stem/carrot2" },
+                "north3": { "base": "ksrealisticfarming:block/plant/flower/petal/carrot1" },
+                "south3": { "base": "ksrealisticfarming:block/plant/flower/petal/carrot1" },
+                "northTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/carrot1" },
+                "southTinted3": { "base": "ksrealisticfarming:block/plant/flower/stem/carrot1" }
+            }
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/carrot",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value":  {
+            "*-6": [
+                { "type": "item", "code": "vegetable-carrot", "quantity": { "avg": 3, "var": 1 }  }
+            ],
+            "*-7": [
+                { "type": "item", "code": "seeds-carrot", "quantity": { "avg": 0.2 }  },
+                { "type": "item", "code": "vegetable-carrot", "quantity": { "avg": 11, "var": 2 }  }
+            ],
+            "*-8": [
+                { "type": "item", "code": "seeds-carrot", "quantity": { "avg": 2.2 }  },
+                { "type": "item", "code": "rot", "quantity": { "avg": 11, "var": 2 }  }
+            ],
+            "*": []
+        }
+    },
+    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/attributes/butterflyFeedByType",
+        "value": {
+			"*-8": true,
+			"*": false
+		}
+    },    
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/onion",
+        "op": "replace",
+        "path": "/attributes/beeFeedByType",
+        "value": {
+			"*-8": true,
+			"*": false
+		}
+    }
+]

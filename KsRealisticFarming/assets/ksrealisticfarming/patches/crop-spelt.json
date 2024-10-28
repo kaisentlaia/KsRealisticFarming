@@ -1,0 +1,17 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/spelt",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-8": [
+                { "type": "item", "code": "grain-spelt", "quantity": { "avg": 12, "var": 2 }  }
+            ],
+            "*-9": [
+                { "type": "item", "code": "grain-spelt", "quantity": { "avg": 24, "var": 4 }  }
+            ],
+            "*": []
+        }
+    }
+]

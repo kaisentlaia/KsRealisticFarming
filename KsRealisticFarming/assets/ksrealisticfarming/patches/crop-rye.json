@@ -1,0 +1,17 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/rye",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-8": [
+                { "type": "item", "code": "grain-rye", "quantity": { "avg": 11, "var": 2 }  }
+            ],
+            "*-9": [
+                { "type": "item", "code": "grain-rye", "quantity": { "avg": 22, "var": 4 }  }
+            ],
+            "*": []
+        }
+    }
+]
