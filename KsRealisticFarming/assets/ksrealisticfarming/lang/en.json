@@ -1,4 +1,10 @@
 {
+    "game:block-crop-cabbage-1": "Sprouting cabbage",
+    "game:block-crop-carrot-1": "Sprouting carrots",
+    "game:block-crop-onion-1": "Sprouting onions",
+    "game:block-crop-parsnip-1": "Sprouting parsnips",
+    "game:block-crop-turnip-1": "Sprouting turnips",
+    "game:block-crop-cassava-1": "Sprouting cassava plant",
     "game:block-crop-cabbage-13": "Flowering cabbage",
     "game:block-crop-carrot-8": "Flowering carrots",
     "game:block-crop-onion-8": "Flowering onions",
@@ -6,5 +12,11 @@
     "game:block-crop-turnip-6": "Flowering turnips",
     "game:block-crop-cassava-*": "Growing cassava plant",
     "game:block-crop-cassava-9": "Mature cassava plant",
-    "game:block-crop-cassava-10": "Flowering cassava plant"
+    "game:block-crop-cassava-10": "Flowering cassava plant",
+    "game:block-crop-cabbage-14": "Seeding cabbage",
+    "game:block-crop-carrot-9": "Seeding carrots",
+    "game:block-crop-onion-9": "Seeding onions",
+    "game:block-crop-parsnip-10": "Seeding parsnips",
+    "game:block-crop-turnip-7": "Seeding turnips",
+    "game:block-crop-cassava-11": "Seeding cassava plant"
 }
