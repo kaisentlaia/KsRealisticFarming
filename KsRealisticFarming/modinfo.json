@@ -1,13 +1,13 @@
 {
-    "type": "content",
+    "type": "code",
     "modid": "ksrealisticfarming",
     "name": "K's Realistic Farming",
     "authors": [
         "Kaisentlaia"
     ],
     "description": "My cabbages!!! Adds a seeding stage for vegetables and a way to replant grains and legumes. Will you eat or expand your farm?",
-    "networkVersion": "1.0.0",
-    "version": "1.0.0",
+    "networkVersion": "1.0.1",
+    "version": "1.0.1",
     "side" : "Universal",
     "requiredOnClient": true,
     "requiredOnServer": true,

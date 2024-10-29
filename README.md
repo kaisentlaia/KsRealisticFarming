@@ -1,4 +1,4 @@
-# KsRealisticFarming
+# K's Realistic Farming
 ![My cabbages!!!](https://i.imgur.com/KmLF0Y7.png)
 
 Not being able to get enough seeds to expand my farms pushed me to make a simple content mod which allows to choose between getting food or seeds.
