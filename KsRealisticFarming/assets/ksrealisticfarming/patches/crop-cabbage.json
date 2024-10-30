@@ -24,8 +24,8 @@
         "side": "server",
         "file": "game:blocktypes/plant/crop/cabbage",
         "op": "addmerge",
-        "path": "/shapeByType/*-13",
-        "value": { "base": "block/plant/flower/1patch-cross-24x24" }
+        "path": "/shapeByType",
+        "value": { "*-13": { "base": "block/plant/flower/1patch-cross-24x24" }}
     },
     {
         "side": "server",
