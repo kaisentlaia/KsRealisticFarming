@@ -76,7 +76,7 @@
             ],
             "*-5": [
                 { "type": "item", "code": "seeds-turnip", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "vegetable-turnip", "quantity": { "avg": 7, "var": 1 }  }
+                { "type": "item", "code": "vegetable-turnip", "quantity": { "avg": 14, "var": 2 }  }
             ],
             "*-6": [
                 { "type": "item", "code": "seeds-turnip", "quantity": { "avg": 2.2 }  },

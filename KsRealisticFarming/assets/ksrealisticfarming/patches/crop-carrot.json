@@ -76,7 +76,7 @@
             ],
             "*-7": [
                 { "type": "item", "code": "seeds-carrot", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "vegetable-carrot", "quantity": { "avg": 11, "var": 2 }  }
+                { "type": "item", "code": "vegetable-carrot", "quantity": { "avg": 22, "var": 4 }  }
             ],
             "*-8": [
                 { "type": "item", "code": "seeds-carrot", "quantity": { "avg": 2.2 }  },

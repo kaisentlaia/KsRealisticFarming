@@ -76,7 +76,7 @@
             ],
             "*-8": [
                 { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "vegetable-parsnip", "quantity": { "avg": 12, "var": 2 }  }
+                { "type": "item", "code": "vegetable-parsnip", "quantity": { "avg": 24, "var": 4 }  }
             ],
             "*-9": [
                 { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 2.2 }  },

@@ -60,7 +60,7 @@
             ],
             "*-12": [
                 { "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "vegetable-cabbage", "quantity": { "avg": 2, "var": 0 }  }
+                { "type": "item", "code": "vegetable-cabbage", "quantity": { "avg": 4, "var": 0 }  }
             ],
             "*-13": [
                 { "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 2.2 }  },

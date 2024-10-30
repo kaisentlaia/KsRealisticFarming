@@ -60,11 +60,11 @@
             ],
             "*-8": [
                 { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 16, "var": 2 }  }
+                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 32, "var": 4 }  }
             ],
             "*-9": [
                 { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 2.2 }  },
-                { "type": "item", "code": "rot", "quantity": { "avg": 16, "var": 2 }  }
+                { "type": "item", "code": "rot", "quantity": { "avg": 32, "var": 4 }  }
             ],
             "*": []
         }

@@ -76,7 +76,7 @@
             ],
             "*-7": [
                 { "type": "item", "code": "seeds-onion", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "vegetable-onion", "quantity": { "avg": 12, "var": 2 }  }
+                { "type": "item", "code": "vegetable-onion", "quantity": { "avg": 24, "var": 4 }  }
             ],
             "*-8": [
                 { "type": "item", "code": "seeds-onion", "quantity": { "avg": 2.2 }  },
