@@ -88,7 +88,7 @@
     
     {
         "side": "server",
-        "file": "game:blocktypes/plant/crop/onion",
+        "file": "game:blocktypes/plant/crop/carrot",
         "op": "replace",
         "path": "/attributes/butterflyFeedByType",
         "value": {
@@ -98,7 +98,7 @@
     },    
     {
         "side": "server",
-        "file": "game:blocktypes/plant/crop/onion",
+        "file": "game:blocktypes/plant/crop/carrot",
         "op": "replace",
         "path": "/attributes/beeFeedByType",
         "value": {
