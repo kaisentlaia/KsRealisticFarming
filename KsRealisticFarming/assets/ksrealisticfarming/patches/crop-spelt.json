@@ -6,12 +6,14 @@
         "path": "/dropsByType",
         "value": {
             "*-8": [
+                { "type": "item", "code": "seeds-spelt", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "grain-spelt", "quantity": { "avg": 12, "var": 2 }  }
             ],
             "*-9": [
+                { "type": "item", "code": "seeds-spelt", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "grain-spelt", "quantity": { "avg": 24, "var": 4 }  }
             ],
-            "*": []
+            "*": [{ "type": "item", "code": "seeds-spelt", "quantity": { "avg": 0.0000001 }  }]
         }
     }
 ]

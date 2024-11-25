@@ -56,6 +56,7 @@
         "path": "/dropsByType",
         "value":  {
             "*-11": [
+                { "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "vegetable-cabbage", "quantity": { "avg": 0.85, "var": 0.1 }  }
             ],
             "*-12": [
@@ -66,7 +67,7 @@
                 { "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 2.2 }  },
                 { "type": "item", "code": "rot", "quantity": { "avg": 2, "var": 0 }  }
             ],
-            "*": []
+            "*": [{ "type": "item", "code": "seeds-cabbage", "quantity": { "avg": 0.0000001 }  }]
         }
     },
     

@@ -72,6 +72,7 @@
         "path": "/dropsByType",
         "value":  {
             "*-6": [
+                { "type": "item", "code": "seeds-carrot", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "vegetable-carrot", "quantity": { "avg": 3, "var": 1 }  }
             ],
             "*-7": [
@@ -82,7 +83,7 @@
                 { "type": "item", "code": "seeds-carrot", "quantity": { "avg": 2.2 }  },
                 { "type": "item", "code": "rot", "quantity": { "avg": 11, "var": 2 }  }
             ],
-            "*": []
+            "*": [{ "type": "item", "code": "seeds-carrot", "quantity": { "avg": 0.0000001 }  }]
         }
     },
     

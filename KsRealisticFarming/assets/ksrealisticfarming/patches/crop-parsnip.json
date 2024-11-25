@@ -72,6 +72,7 @@
         "path": "/dropsByType",
         "value":  {
             "*-7": [
+                { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "vegetable-parsnip", "quantity": { "avg": 4, "var": 1 }  }
             ],
             "*-8": [
@@ -82,7 +83,7 @@
                 { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 2.2 }  },
                 { "type": "item", "code": "rot", "quantity": { "avg": 12, "var": 2 }  }
             ],
-            "*": []
+            "*": [{ "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 0.0000001 }  }]
         }
     },
     

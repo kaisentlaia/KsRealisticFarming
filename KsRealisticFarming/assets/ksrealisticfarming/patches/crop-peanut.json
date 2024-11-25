@@ -6,15 +6,18 @@
         "path": "/dropsByType",
         "value": {
             "*-7": [
+                { "type": "item", "code": "seeds-peanut", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "legume-peanut", "quantity": { "avg": 4, "var": 0.5 }  }
             ],
             "*-8": [
+                { "type": "item", "code": "seeds-peanut", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "legume-peanut", "quantity": { "avg": 20, "var": 4 }  }
             ],
             "*-9": [
+                { "type": "item", "code": "seeds-peanut", "quantity": { "avg": 0.0000001 }  },
                 { "type": "item", "code": "legume-peanut", "quantity": { "avg": 10, "var": 2 }  }
             ],
-            "*": []
+            "*": [{ "type": "item", "code": "seeds-peanut", "quantity": { "avg": 0.0000001 }  }]
         }
     }
 ]
