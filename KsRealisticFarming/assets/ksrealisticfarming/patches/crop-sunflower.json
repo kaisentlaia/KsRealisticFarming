@@ -6,14 +6,14 @@
         "path": "/dropsByType",
         "value": {
             "*-11": [
-                { "type": "item", "code": "seeds-sunflower", "quantity": { "avg": 0.0000001 }  },
-                { "type": "item", "code": "grain-sunflower", "quantity": { "avg": 13, "var": 2 }  }
+                { "type": "item", "code": "seeds-sunflower", "quantity": { "avg": 0.0000001 } },
+                { "type": "item", "code": "grain-sunflower", "quantity": { "avg": 13, "var": 2 } }
             ],
             "*-12": [
-                { "type": "item", "code": "seeds-sunflower", "quantity": { "avg": 0.0000001 }  },
-                { "type": "item", "code": "grain-sunflower", "quantity": { "avg": 26, "var": 4 }  }
+                { "type": "item", "code": "seeds-sunflower", "quantity": { "avg": 0.0000001 } },
+                { "type": "item", "code": "grain-sunflower", "quantity": { "avg": 26, "var": 4 } }
             ],
-            "*": [{ "type": "item", "code": "seeds-sunflower", "quantity": { "avg": 0.0000001 }  }]
+            "*": [{ "type": "item", "code": "seeds-sunflower", "quantity": { "avg": 0.0000001 } }]
         }
     }
 ]

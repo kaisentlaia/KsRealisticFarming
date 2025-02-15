@@ -6,16 +6,16 @@
         "path": "/dropsByType",
         "value": {
             "*-8": [
-                { "type": "item", "code": "seeds-flax", "quantity": { "avg": 0.0000001 }  },
-                { "type": "item", "code": "grain-flax", "quantity": { "avg": 6, "var": 1 }  },
-                { "type": "item", "code": "flaxfibers", "quantity": { "avg": 8, "var": 1 }  }
+                { "type": "item", "code": "seeds-flax", "quantity": { "avg": 0.0000001 } },
+                { "type": "item", "code": "grain-flax", "quantity": { "avg": 6, "var": 1 } },
+                { "type": "item", "code": "flaxfibers", "quantity": { "avg": 8, "var": 1 } }
             ],
             "*-9": [
-                { "type": "item", "code": "seeds-flax", "quantity": { "avg": 0.0000001 }  },
-                { "type": "item", "code": "grain-flax", "quantity": { "avg": 12, "var": 2 }  },
-                { "type": "item", "code": "flaxfibers", "quantity": { "avg": 8, "var": 1 }  }
+                { "type": "item", "code": "seeds-flax", "quantity": { "avg": 0.0000001 } },
+                { "type": "item", "code": "grain-flax", "quantity": { "avg": 12, "var": 2 } },
+                { "type": "item", "code": "flaxfibers", "quantity": { "avg": 8, "var": 1 } }
             ],
-            "*": [{ "type": "item", "code": "seeds-flax", "quantity": { "avg": 0.0000001 }  }]
+            "*": [{ "type": "item", "code": "seeds-flax", "quantity": { "avg": 0.0000001 } }]
         }
     }
 ]

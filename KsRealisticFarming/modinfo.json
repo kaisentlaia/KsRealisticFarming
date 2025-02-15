@@ -6,12 +6,12 @@
         "Kaisentlaia"
     ],
     "description": "My cabbages!!! Adds a seeding stage for vegetables and a way to replant grains and legumes. Will you eat or expand your farm?",
-    "networkVersion": "1.0.4",
-    "version": "1.0.4",
+    "networkVersion": "1.0.5",
+    "version": "1.0.5",
     "side" : "Universal",
     "requiredOnClient": true,
     "requiredOnServer": true,
     "dependencies": {
-        "game": "1.19.0"
+        "game": "1.20.0"
     }
 }

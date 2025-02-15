@@ -55,19 +55,19 @@
         "op": "replace",
         "path": "/dropsByType",
         "value":  {
-            "*-7": [
-                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.0000001 }  },
-                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 5, "var": 0.8 }  }
-            ],
             "*-8": [
-                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.2 }  },
-                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 32, "var": 4 }  }
+                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.0000001 } },
+                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 5, "var": 0.8 } }
             ],
             "*-9": [
-                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 2.2 }  },
-                { "type": "item", "code": "rot", "quantity": { "avg": 32, "var": 4 }  }
+                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.2 } },
+                { "type": "item", "code": "rawcassava-raw", "quantity": { "avg": 32, "var": 4 } }
             ],
-            "*": [{ "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.0000001 }  }]
+            "*-10": [
+                { "type": "item", "code": "seeds-cassava", "quantity": { "avg": 2.2 } },
+                { "type": "item", "code": "rot", "quantity": { "avg": 32, "var": 4 } }
+            ],
+            "*": [{ "type": "item", "code": "seeds-cassava", "quantity": { "avg": 0.0000001 } }]
         }
     },
     
