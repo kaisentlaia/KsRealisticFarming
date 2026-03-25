@@ -67,7 +67,7 @@
             ],
             "*-8": [
                 { "type": "item", "code": "seeds-onion", "quantity": { "avg": 2.2 } },
-                { "type": "item", "code": "rot", "quantity": { "avg": 12, "var": 2 } },
+                { "type": "item", "code": "plantdebris-leafy", "quantity": { "avg": 12, "var": 2 } },
                 { "type": "item", "code": "vegetable-onion", "quantity": { "avg": 0.25 } }
             ],
             "*": [{ "type": "item", "code": "seeds-onion", "quantity": { "avg": 0.0000001 } }]
@@ -94,7 +94,6 @@
 			"*": false
 		}
     },
-
     {
         "side": "server",
         "file": "game:blocktypes/plant/crop/onion",

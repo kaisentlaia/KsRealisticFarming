@@ -2,7 +2,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-flax", "quantity": 5 }
+			"V": { "type": "item", "code": "game:grain-flax", "quantity": 3 }
 		},
 		"width": 1,
 		"height": 1,
@@ -11,7 +11,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-spelt", "quantity": 10 }
+			"V": { "type": "item", "code": "game:grain-spelt", "quantity": 6 }
 		},
 		"width": 1,
 		"height": 1,
@@ -20,7 +20,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-rice", "quantity": 11 }
+			"V": { "type": "item", "code": "game:grain-rice", "quantity": 7 }
 		},
 		"width": 1,
 		"height": 1,
@@ -29,7 +29,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-rye", "quantity": 9 }
+			"V": { "type": "item", "code": "game:grain-rye", "quantity": 6 }
 		},
 		"width": 1,
 		"height": 1,
@@ -38,7 +38,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:legume-soybean", "quantity": 5 }
+			"V": { "type": "item", "code": "game:legume-soybean", "quantity": 6 }
 		},
 		"width": 1,
 		"height": 1,
@@ -47,7 +47,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-amaranth", "quantity": 5 }
+			"V": { "type": "item", "code": "game:grain-amaranth", "quantity": 3 }
 		},
 		"width": 1,
 		"height": 1,
@@ -56,7 +56,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:legume-peanut", "quantity": 8 }
+			"V": { "type": "item", "code": "game:legume-peanut", "quantity": 10 }
 		},
 		"width": 1,
 		"height": 1,
@@ -65,7 +65,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-sunflower", "quantity": 11 }
+			"V": { "type": "item", "code": "game:grain-sunflower", "quantity": 7711 }
 		},
 		"width": 1,
 		"height": 1,

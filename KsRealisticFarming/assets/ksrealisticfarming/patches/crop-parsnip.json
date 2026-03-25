@@ -81,7 +81,7 @@
             ],
             "*-9": [
                 { "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 2.2 } },
-                { "type": "item", "code": "rot", "quantity": { "avg": 12, "var": 2 } },
+                { "type": "item", "code": "plantdebris-leafy", "quantity": { "avg": 12, "var": 2 } },
                 { "type": "item", "code": "vegetable-parsnip", "quantity": { "avg": 0.1 } }
             ],
             "*": [{ "type": "item", "code": "seeds-parsnip", "quantity": { "avg": 0.0000001 } }]

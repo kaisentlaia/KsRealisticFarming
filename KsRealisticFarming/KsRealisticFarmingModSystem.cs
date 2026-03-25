@@ -41,7 +41,16 @@ public class KsRealisticFarmingModSystem : ModSystem
                 __instance.Code.Path.Contains("turnip") ||
                 __instance.Code.Path.Contains("cassava") ||
                 __instance.Code.Path.Contains("onion") ||
-                __instance.Code.Path.Contains("parsnip");
+                __instance.Code.Path.Contains("parsnip") ||
+                __instance.Code.Path.Contains("fennel");
+            bool isGrain = __instance.Code.Path.Contains("rye") ||
+                __instance.Code.Path.Contains("flax") ||
+                __instance.Code.Path.Contains("spelt") ||
+                __instance.Code.Path.Contains("rice") ||
+                __instance.Code.Path.Contains("peanut") ||
+                __instance.Code.Path.Contains("soybean") ||
+                __instance.Code.Path.Contains("amaranth") ||
+                __instance.Code.Path.Contains("sunflower");
             WorldInteraction[] interactions;
             if (isVegetable) {
                 interactions = new WorldInteraction[3] {
@@ -64,7 +73,7 @@ public class KsRealisticFarmingModSystem : ModSystem
                         ShouldApply = (WorldInteraction wi, BlockSelection bs, EntitySelection es) => __instance.CurrentCropStage == __instance.CropProps.GrowthStages
                     },
                 };
-            } else {
+            } else if (isGrain) {
                 interactions = new WorldInteraction[2] {
                     new WorldInteraction()
                     {
@@ -79,6 +88,8 @@ public class KsRealisticFarmingModSystem : ModSystem
                         ShouldApply = (WorldInteraction wi, BlockSelection bs, EntitySelection es) => __instance.CurrentCropStage == __instance.CropProps.GrowthStages
                     }
                 };
+            } else {
+                return __result;
             }
             return interactions.Append(__result.Remove(__result.First()));
         }

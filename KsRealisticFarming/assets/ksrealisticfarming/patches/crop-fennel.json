@@ -1,0 +1,32 @@
+[
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/fennel",
+        "op": "replace",
+        "path": "/dropsByType",
+        "value": {
+            "*-7": [
+                { "type": "item", "code": "seeds-fennel", "quantity": { "avg": 0.0000001 } },
+                { "type": "item", "code": "vegetable-fennel", "quantity": { "avg": 3, "var": 1 } }
+            ],
+            "*-8": [
+                { "type": "item", "code": "seeds-fennel", "quantity": { "avg": 0.2 } },
+                { "type": "item", "code": "vegetable-fennel", "quantity": { "avg": 22, "var": 4 } }
+            ],
+            "*-9": [
+                { "type": "item", "code": "seeds-fennel", "quantity": { "avg": 2.4 } },
+                { "type": "item", "code": "plantdebris-leafy", "quantity": { "avg": 11, "var": 2 } }
+            ],
+            "*": [
+                { "type": "item", "code": "seeds-fennel", "quantity": { "avg": 0.0000001 } }
+            ]
+        }
+    },
+    {
+        "side": "server",
+        "file": "game:blocktypes/plant/crop/fennel",
+        "op": "replace",
+        "path": "/cropProps/totalGrowthMonths",
+        "value": 3.33
+    }
+]

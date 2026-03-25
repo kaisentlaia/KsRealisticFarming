@@ -7,11 +7,11 @@
         "value": {
             "*-9": [
                 { "type": "item", "code": "seeds-rice", "quantity": { "avg": 0.0000001 } },
-                { "type": "item", "code": "grain-rice", "quantity": { "avg": 13, "var": 2 } }
+                { "type": "item", "code": "grain-rice", "quantity": { "avg": 6.5, "var": 1 } }
             ],
             "*-10": [
                 { "type": "item", "code": "seeds-rice", "quantity": { "avg": 0.0000001 } },
-                { "type": "item", "code": "grain-rice", "quantity": { "avg": 26, "var": 4 } }
+                { "type": "item", "code": "grain-rice", "quantity": { "avg": 12, "var": 2 } }
             ],
             "*": [{ "type": "item", "code": "seeds-rice", "quantity": { "avg": 0.0000001 } }]
         }
