@@ -45,11 +45,13 @@
     {
         "side": "server",
         "file": "game:blocktypes/plant/crop/turnip",
-        "op": "replace",
-        "path": "/textures",
+        "op": "add",
+        "path": "/texturesByType",
         "value": {
-            "s": { "base": "ksrealisticfarming:block/plant/crop/turnip/s{stage}" },
-            "e": { "base": "ksrealisticfarming:block/plant/crop/turnip/e{stage}" }
+            "*-6": { 
+                "s": { "base": "ksrealisticfarming:block/plant/crop/turnip/s6" },
+                "e": { "base": "ksrealisticfarming:block/plant/crop/turnip/e6" }
+            }
         }
     },
     {
