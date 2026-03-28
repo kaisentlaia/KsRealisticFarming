@@ -20,7 +20,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-rice", "quantity": 7 }
+			"V": { "type": "item", "code": "game:grain-rice", "quantity": 6 }
 		},
 		"width": 1,
 		"height": 1,
@@ -29,7 +29,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-rye", "quantity": 6 }
+			"V": { "type": "item", "code": "game:grain-rye", "quantity": 5 }
 		},
 		"width": 1,
 		"height": 1,
@@ -65,7 +65,7 @@
 	{
 		"ingredientPattern": "V",
 		"ingredients": {
-			"V": { "type": "item", "code": "game:grain-sunflower", "quantity": 7711 }
+			"V": { "type": "item", "code": "game:grain-sunflower", "quantity": 6 }
 		},
 		"width": 1,
 		"height": 1,
