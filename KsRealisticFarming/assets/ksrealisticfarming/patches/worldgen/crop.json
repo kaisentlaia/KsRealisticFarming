@@ -3,18 +3,6 @@
         "file": "game:worldgen/blockpatches/crop.json",
         "op": "addmerge",
         "path": "/4/blockCodes/-",
-        "value": "crop-carrot-6"
-    },
-    {
-        "file": "game:worldgen/blockpatches/crop.json",
-        "op": "addmerge",
-        "path": "/4/blockCodes/-",
-        "value": "crop-carrot-7"
-    },
-    {
-        "file": "game:worldgen/blockpatches/crop.json",
-        "op": "addmerge",
-        "path": "/4/blockCodes/-",
         "value": "crop-carrot-8"
     },
     {
